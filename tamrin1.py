@@ -21,8 +21,15 @@ for i in range(1000):
     if op=="+" or op=="-" or op=="*" or op=="/":
         a=float(input("num1:"))
         b=float(input("num2:"))
+    elif op=="tan" or op=="cot" or op=="sin" or op=="cos":
+        a=float(input("num1:"))
+        x=(a*180)/(math.pi)
+        print("zaviye be darage :",x)
     else:
         a=float(input("num1:"))
+       
+        
+
     if op=="+":
         result=a+b
     elif op=="-":
