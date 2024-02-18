@@ -10,5 +10,8 @@
 | great | >=17    |
 | normal | 12<=avg<17    |
 | failed   |<12 |
+
+
 **4**calculate bmi
+
 ![BMI](BMI.jpg)
