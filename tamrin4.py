@@ -1,22 +1,22 @@
 import math
-
-weight=float(input("enter your weighth in kg:"))
-height=float(input("enter your heighth in m :"))
-
-
-BMI=weight/math.pow(height,2)
-if BMI<18.5:
-    print("underweight")
-elif BMI>=18.5 and BMI<=24.9:
-    print("normal weight")
-elif BMI>=25 and BMI<=29.9:
-    print("over weight")
-elif BMI>=30 and BMI<=34.9:
-    print("obecity")
-elif BMI>=35 and BMI<=39.9:
-    print(" extreamobecity")
+while True:
+    weight=float(input("enter your weighth in kg:"))
+    height=float(input("enter your heighth in m :"))
 
 
+    BMI=weight/math.pow(height,2)
+    if BMI<18.5:
+        print("underweight")
+    elif 18.5 <= BMI <= 24.9:
+            print("Normal weight")
+    elif 25 <= BMI <= 29.9:
+            print("Overweight")
+    elif 30 <= BMI <= 34.9:
+            print("Obesity")
+    elif 35 <= BMI <= 39.9:
+            print("Extreme obesity")
+    else:
+            print("Severe obesity")
 
 
-    
+        
